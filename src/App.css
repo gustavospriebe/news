@@ -114,6 +114,22 @@ main {
     background-color: var(--very-dark-blue);
 }
 
+.sidebar-title {
+    padding: 15px;
+    color: var(--soft-orange)
+}
+
+.sidebar-news {
+    padding: 0 15px;
+    color: var(--off-white);
+    border-bottom: 1px solid var(--off-white)
+}
+
+.sidebar-news > p {
+    font-size: 0.8rem;
+    color: var(--grayish-blue)
+}
+
 @media (max-width: 768px) {
     .logo > img {
         width: 60%;
